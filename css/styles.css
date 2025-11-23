@@ -203,7 +203,7 @@
 
      .page .left_Aside,
      .page .right_Aside {
-         min-width: 50%;
+         min-width: 1fr;
          max-width: auto;
      }
 
