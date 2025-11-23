@@ -198,7 +198,7 @@
      }
 
      .page .main {
-         flex-direction: row;
+         flex-direction: column;
      }
 
      .page .left_Aside,
