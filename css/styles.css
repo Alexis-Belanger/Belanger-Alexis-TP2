@@ -14,7 +14,7 @@
 
  body {
      justify-content: center;
-     text-align: center;
+     margin: auto;
  }
 
  /* Classe pour la mise en page utilisant les "flexbox" */
