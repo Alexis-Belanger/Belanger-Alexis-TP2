@@ -197,7 +197,7 @@
      }
 
      .page .main {
-         flex-direction: column;
+         flex-direction: row;
      }
 
      .page .left_Aside,
@@ -217,5 +217,8 @@
 
      .iconList{
         flex-direction: row;
+     }
+     .right_Aside{
+        max-width: 90%;
      }
  }
