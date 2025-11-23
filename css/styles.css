@@ -12,10 +12,6 @@
      box-sizing: border-box;
  }
 
- body {
-     margin: auto;
- }
-
  /* Classe pour la mise en page utilisant les "flexbox" */
  .page {
      /* disposition verticale des sections header, main et footer */
