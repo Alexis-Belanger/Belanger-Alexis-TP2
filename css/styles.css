@@ -203,8 +203,8 @@
 
      .page .left_Aside,
      .page .right_Aside {
-         min-width: auto;
-         max-width: none;
+         min-width: 50%;
+         max-width: auto;
      }
 
      .page .header .menu {
@@ -218,9 +218,5 @@
 
      .iconList {
          flex-direction: row;
-     }
-
-     .right_Aside {
-         max-width: 90%;
      }
  }
