@@ -22,6 +22,7 @@
      /* disposition verticale des sections header, main et footer */
      display: flex;
      flex-direction: column;
+     align-items: center;
      width: 100%;
      max-width: 1000px;
      min-width: 500px;
