@@ -25,11 +25,12 @@
      width: 100%;
      max-width: 1000px;
      min-width: 500px;
+     margin: 0 auto;
      height: 100vh;
      /* 100% de la hauteur du viewport pour assurer la réactivité verticale */
      gap: var(--gap);
      padding: var(--gap);
-     
+
 
      .favicon {
          height: 32px;
@@ -215,10 +216,11 @@
          text-align: center;
      }
 
-     .iconList{
-        flex-direction: row;
+     .iconList {
+         flex-direction: row;
      }
-     .right_Aside{
-        max-width: 90%;
+
+     .right_Aside {
+         max-width: 90%;
      }
  }
