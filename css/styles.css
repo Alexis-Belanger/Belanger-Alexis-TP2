@@ -215,4 +215,8 @@
      .page .header .menuItem {
          text-align: center;
      }
+
+     .iconList{
+        flex-direction: row;
+     }
  }
