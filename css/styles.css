@@ -12,7 +12,7 @@
      box-sizing: border-box;
  }
 
-/* Let the HTML and body be 100% height so .page can use 100vh consistently */
+
 html, body {
     height: 100%;
 }
@@ -69,7 +69,7 @@ html, body {
 
      .main {
          flex: 1;
-        min-height: 0; /* allow the children to be able to shrink without causing page overflow */
+        min-height: 0;
          /* permettre de le formatage flex du parent */
          min-height: 10vh;
          /* hauteur minimum relative à la hauteur du viewport*/
