@@ -21,11 +21,6 @@
      /* 100% de la hauteur du viewport pour assurer la réactivité verticale */
      gap: var(--gap);
      padding: var(--gap);
-     max-width: 1000px;
-     min-width: 500px;
-     margin: 0 auto;
-
-
      .favicon {
          height: 32px;
          width: 32px;
