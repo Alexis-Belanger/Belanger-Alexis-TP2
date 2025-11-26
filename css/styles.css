@@ -196,8 +196,9 @@
 
      .page .left_Aside,
      .page .right_Aside {
-         min-width: 1fr;
-         max-width: auto;
+        min-width: 0;
+        width: 100%;
+        max-width: 100%;
      }
 
      .page .header .menu {
