@@ -231,6 +231,6 @@
      }
 
      .iconList {
-         flex-direction: row;
+         flex-direction: column;
      }
  }
