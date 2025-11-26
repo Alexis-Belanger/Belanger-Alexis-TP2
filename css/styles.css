@@ -24,7 +24,7 @@
      max-width: 1000px;
      min-width: 500px;
      margin: 0 auto;
-     height: 100vh;
+     max-height: 100vh;
 
      .favicon {
          height: 32px;
