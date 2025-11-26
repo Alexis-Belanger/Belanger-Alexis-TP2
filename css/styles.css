@@ -80,6 +80,7 @@
 
          .scrollSection {
              overflow-y: auto;
+             min-height: 0;
          }
 
          .content {
