@@ -200,12 +200,6 @@
          min-width: 0;
      }
 
-     .page .left_Aside {
-         width: 120px;
-         max-width: 120px;
-         flex: 0 0 120px;
-     }
-
      .page .main .right_Aside {
          width: 90%;
          max-width: 90%;
@@ -213,6 +207,11 @@
          margin-right: auto;
          flex: 0 0 100%;
      }
+     .page .content,
+    .page .right_Aside {
+        width: 100%;
+        max-width: 100%;
+    }
 
      .iconList {
          flex-direction: row;
