@@ -78,7 +78,7 @@
          gap: var(--gap);
 
          .scrollSection {
-             overflow-y: auto;
+             overflow-y: hidden;
          }
 
          .content {
