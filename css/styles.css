@@ -6,19 +6,14 @@
  }
 
  /* Remettre à zéro les marges de tous éléments pour contrecarrer les valeurs par défaut prédéfinies du fureteur */
-* {
+ * {
      margin: 0px;
      padding: 0px;
      box-sizing: border-box;
  }
 
-
-html, body {
-    height: 100%;
-}
-
  /* Classe pour la mise en page utilisant les "flexbox" */
-.page {
+ .page {
      /* disposition verticale des sections header, main et footer */
      display: flex;
      flex-direction: column;
@@ -27,9 +22,8 @@ html, body {
      padding: var(--gap);
      max-width: 1000px;
      min-width: 500px;
-    margin: 0 auto;
-    height: 100vh;
-    overflow: hidden;
+     margin: 0 auto;
+     height: 100vh;
 
      .favicon {
          height: 32px;
@@ -69,7 +63,6 @@ html, body {
 
      .main {
          flex: 1;
-        min-height: 0;
          /* permettre de le formatage flex du parent */
          min-height: 10vh;
          /* hauteur minimum relative à la hauteur du viewport*/
@@ -177,19 +170,6 @@ html, body {
      font-style: normal;
      font-size: 1.8em;
  }
-
-.video-wrapper {
-    flex: 1 1 auto;
-    min-height: 0;
-    width: 100%;
-    display: flex;
-}
-
-.video-wrapper iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
 
  .author {
      width: 30%;
