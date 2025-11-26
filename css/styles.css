@@ -63,7 +63,7 @@
      }
 
      .main {
-         flex: 1 1 auto;
+         flex: 1;
          /* permettre de le formatage flex du parent */
          min-height: 0;
          /* hauteur minimum relative à la hauteur du viewport*/
