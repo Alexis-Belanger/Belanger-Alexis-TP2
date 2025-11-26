@@ -17,7 +17,7 @@
      /* disposition verticale des sections header, main et footer */
      display: flex;
      flex-direction: column;
-     
+
      /* 100% de la hauteur du viewport pour assurer la réactivité verticale */
      gap: var(--gap);
      padding: var(--gap);
@@ -187,35 +187,30 @@
 
  @media screen and (max-width: 700px) {
 
-    .page .main {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
+     .page .main {
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-items: flex-start;
+     }
 
-    .page .left_Aside,
-    .page .right_Aside {
-        min-width: 0;
-    }
+     .page .left_Aside,
+     .page .right_Aside {
+         min-width: 0;
+     }
 
-    .page .left_Aside {
-        width: 120px;
-        max-width: 120px;
-        flex: 0 0 120px;
-    }
+     .page .left_Aside {
+         width: 120px;
+         max-width: 120px;
+         flex: 0 0 120px;
+     }
 
-    .page .content {
-        flex: 1 1 auto;
-        min-width: 0;
-    }
-
-        .page .main .right_Aside {
-            width: 90%;
-            max-width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-            flex: 0 0 100%;
-        }
+     .page .main .right_Aside {
+         width: 90%;
+         max-width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+         flex: 0 0 100%;
+     }
 
      .iconList {
          flex-direction: row;
