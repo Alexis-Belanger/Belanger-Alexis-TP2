@@ -196,9 +196,17 @@
 
      .page .left_Aside,
      .page .right_Aside {
-        min-width: 0;
-        width: 100%;
-        max-width: 100%;
+         min-width: 0;
+         width: 100%;
+         max-width: 100%;
+     }
+
+     /* Make the right aside narrower (90%) and centered on small screens */
+     .page .right_Aside {
+          width: 90%;
+          max-width: 90%;
+          margin-left: auto;
+          margin-right: auto;
      }
 
      .page .header .menu {
