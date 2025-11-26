@@ -201,12 +201,13 @@
          max-width: 100%;
      }
 
-     .page .right_Aside {
-          width: 90%;
-          max-width: 90%;
-          margin-left: auto;
-          margin-right: auto;
-     }
+        .page .main .right_Aside {
+            width: 90%;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            flex: none; 
+        }
 
      .page .header .menu {
          flex-direction: column;
