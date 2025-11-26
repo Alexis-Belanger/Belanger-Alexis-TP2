@@ -125,6 +125,35 @@
      border: 1px solid gray;
  }
 
+/* Base left/right aside styles (top-level to ensure they apply even with nested sections) */
+.left_Aside {
+    flex: 1;
+    min-width: 100px;
+    max-width: 120px;
+}
+
+.right_Aside {
+    flex: 1;
+    min-width: 70px;
+    max-width: 120px;
+}
+
+/* Simple styling for the definitions list inside the left aside */
+.left_Aside dl {
+    margin: 0;
+    padding: 0;
+}
+
+.left_Aside dt {
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.left_Aside dd {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+}
+
 
  /* disposer une liste d'icone font-awsome vertivalement */
  .iconList {
