@@ -65,7 +65,7 @@
      .main {
          flex: 1;
          /* permettre de le formatage flex du parent */
-         min-height: 0;
+         min-height: 10vh;
          /* hauteur minimum relative à la hauteur du viewport*/
 
          /* contrecarrer les styles de la classe page */
