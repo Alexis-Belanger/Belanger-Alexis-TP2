@@ -190,25 +190,38 @@
          padding: 5px;
      }
 
-     .page .main {
-         flex-direction: column;
-     }
+    .page .main {
+        /* keep left aside inline with content and allow wrapping so right aside can move under */
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
 
-     .page .left_Aside,
-     .page .right_Aside {
-         min-width: 0;
-         width: 100%;
-         max-width: 100%;
-     }
+    .page .left_Aside,
+    .page .right_Aside {
+        min-width: 0;
+    }
+
+    /* keep left aside in the same row as the content */
+    .page .left_Aside {
+        width: 120px;
+        max-width: 120px;
+        flex: 0 0 120px;
+    }
+
+    /* content takes the remaining width */
+    .page .content {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
 
         .page .main .right_Aside {
             width: 90%;
             max-width: 90%;
-            height: 90%;
-            max-height: 90%;
             margin-left: auto;
             margin-right: auto;
-            flex: none; 
+            /* force a new row (full-width) then shrink inside it to 90% */
+            flex: 0 0 100%;
         }
 
      .page .header .menu {
