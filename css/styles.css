@@ -6,14 +6,19 @@
  }
 
  /* Remettre à zéro les marges de tous éléments pour contrecarrer les valeurs par défaut prédéfinies du fureteur */
- * {
+* {
      margin: 0px;
      padding: 0px;
      box-sizing: border-box;
  }
 
+/* Let the HTML and body be 100% height so .page can use 100vh consistently */
+html, body {
+    height: 100%;
+}
+
  /* Classe pour la mise en page utilisant les "flexbox" */
- .page {
+.page {
      /* disposition verticale des sections header, main et footer */
      display: flex;
      flex-direction: column;
@@ -22,8 +27,9 @@
      padding: var(--gap);
      max-width: 1000px;
      min-width: 500px;
-     margin: 0 auto;
-     height: 100vh;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
 
      .favicon {
          height: 32px;
@@ -63,6 +69,7 @@
 
      .main {
          flex: 1;
+        min-height: 0; /* allow the children to be able to shrink without causing page overflow */
          /* permettre de le formatage flex du parent */
          min-height: 10vh;
          /* hauteur minimum relative à la hauteur du viewport*/
